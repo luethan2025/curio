@@ -105,3 +105,6 @@ function multiselect {
 
   eval $return_value='("${selected[@]}")'
 }
+
+readonly DATASETS_PATH=datasets.sh
+source $DATASETS_PATH
